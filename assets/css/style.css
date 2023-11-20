@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* diseño body */
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* diseño div general */
+.general{
+    width: 50%;
+    background-color: rgb(235, 235, 235);
+    border: 2px solid gray;
+}
+
+/* diseño zona superior */
+.arriba{
+    padding: 15px;
+}
+.arriba hr{
+    opacity: 30%;
+}
+
+/* diseño zona media input y button */
+.inputYbtn{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.inputYbtn input{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+}
+.inputYbtn button{
+    width: 15%;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+/* diseño parte inferior */
+
+.abajo{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* diseño totales */
+.totales{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/* diseño titulos */
+
+.titulos{
+    display: flex;
+    justify-content: flex-start;
+}
+.titulos .tarea{
+    padding-left: 60px;
+}
+
+/* diseño listas con id y class */
+
+.lista{
+    width: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+}
+#lista{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+#lista li{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#lista li input{
+    display: flex;
+    justify-content: center;
+}
+#lista button{
+    background-color: green;
+    color: white;
+    height: 25px;
+    border-radius: 5px;
+}
